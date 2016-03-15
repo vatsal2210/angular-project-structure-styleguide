@@ -1,4 +1,4 @@
-# angular-project-structure-styleguide
+# Angular Project Structure Styleguide
 
 ## Purpose
 
