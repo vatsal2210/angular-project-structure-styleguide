@@ -8,13 +8,13 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 
 ## Table of Contents
 
-1. [Directory Structure](##directory-structure)
-1. [Naming Conventions](##naming-conventions)
-1. [References](##references)
+1. [Directory Structure](#directory-structure)
+1. [Naming Conventions](#naming-conventions)
+1. [References](#references)
 
 ## Directory Structure
 
-### TOOD 
+### TODO
 
 - [ ] discuss location of sass files
 - [ ] change this to a component based structure instead similar to the treefort application
@@ -68,17 +68,21 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 
 Name directories using `kebab-case` syntax.
 
+#### Why
+
 ### Files
 
-Name files using `kebab-case` syntax. Add a filtype descriptor at the end of the file name that describes what type of Angular construct it is.
+Name files using `kebab-case` syntax. Add a file type descriptor at the end of the file name that describes what type of Angular construct it is.
 
-```js
+```
+// bad
+
+// good
 ```
 
-```js
-```
+#### Why
 
-### Why
+Because it makes it easier to write patterns for build tools such as gulp.
 
 ## References
 
