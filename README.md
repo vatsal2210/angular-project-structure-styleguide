@@ -9,9 +9,15 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 ## Table of Contents
 
 1. [Directory Structure](##directory-structure)
-
+1. [Naming Conventions](##naming-conventions)
+1. [References](##references)
 
 ## Directory Structure
+
+### TOOD 
+
+- [ ] discuss location of sass files
+- [ ] change this to a component based structure instead similar to the treefort application
 
 ```
 .
@@ -23,28 +29,59 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │   │   ├── filters
 │   │   └── services
 │   ├── home
+│   │   ├── home.module.js
+│   │   ├── home.routes.js
 │   │   ├── controllers
-│   │   │   ├── FirstCtrl.js
-│   │   │   └── SecondCtrl.js
+│   │   │   ├── first.controller.js
+│   │   │   └── second.controler.js
 │   │   ├── directives
-│   │   │   └── directive1.js
+│   │   │   └── functionality-1
+│   │   │   	├── functionality-1.directive.js
+│   │   │   	└── functionality-1.tpl.js
 │   │   ├── filters
-│   │   │   ├── filter1.js
-│   │   │   └── filter2.js
+│   │   │   ├── bar.filter.js
+│   │   │   └── foo.filter.js
 │   │   └── services
-│   │       ├── service1.js
-│   │       └── service2.js
+│   │       ├── model.service.js
+│   │       └── helper.service.js
 │   └── about
+│       ├── about.module.js
+│       ├── about.routes.js
 │       ├── controllers
-│       │   └── ThirdCtrl.js
+│       │   └── third.controller.js
 │       ├── directives
-│       │   ├── directive2.js
-│       │   └── directive3.js
+│       │   ├── functionalty-2.directive.js
+│       │   └── functionality-3.directive..js
 │       ├── filters
-│       │   └── filter3.js
+│       │   └── localize.filter.js
 │       └── services
-│           └── service3.js
-├── partials
+│           └── helper.service.js
 ├── lib
 └── test
 ```
+
+### Why
+
+## Naming Conventions
+
+### Directories 
+
+Name directories using `kebab-case` syntax.
+
+### Files
+
+Name files using `kebab-case` syntax. Add a filtype descriptor at the end of the file name that describes what type of Angular construct it is.
+
+```js
+```
+
+```js
+```
+
+### Why
+
+## References
+
+1. https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
+1. https://github.com/gianarb/awesome-angularjs
+1. https://github.com/mgechev/angularjs-style-guide#directory-structure
