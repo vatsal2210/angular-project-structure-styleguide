@@ -42,7 +42,7 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │       ├── about.routes.js
 │       ├── third.controller.js
 │       ├── functionalty-2.directive.js
-│       ├── functionality-3.directive..js
+│       ├── functionality-3.directive.js
 │       ├── localize.filter.js
 │       └──helper.service.js
 └── lib
