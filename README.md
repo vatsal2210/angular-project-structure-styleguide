@@ -31,33 +31,21 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │   ├── home
 │   │   ├── home.module.js
 │   │   ├── home.routes.js
-│   │   ├── controllers
-│   │   │   ├── first.controller.js
-│   │   │   └── second.controler.js
-│   │   ├── directives
-│   │   │   └── functionality-1
-│   │   │   	├── functionality-1.directive.js
-│   │   │   	└── functionality-1.tpl.js
-│   │   ├── filters
-│   │   │   ├── bar.filter.js
-│   │   │   └── foo.filter.js
-│   │   └── services
-│   │       ├── model.service.js
-│   │       └── helper.service.js
+│   │   ├── first.controller.js
+│   │   ├── second.controler.js
+│   │   ├── functionality-1.directive.js
+│   │   ├── functionality-1.tpl.js
+│   │   ├── bar.filter.js
+│   │   └── model.service.js
 │   └── about
 │       ├── about.module.js
 │       ├── about.routes.js
-│       ├── controllers
-│       │   └── third.controller.js
-│       ├── directives
-│       │   ├── functionalty-2.directive.js
-│       │   └── functionality-3.directive..js
-│       ├── filters
-│       │   └── localize.filter.js
-│       └── services
-│           └── helper.service.js
-├── lib
-└── test
+│       ├── third.controller.js
+│       ├── functionalty-2.directive.js
+│       ├── functionality-3.directive..js
+│       ├── localize.filter.js
+│       └──helper.service.js
+└── lib
 ```
 
 ### Why
