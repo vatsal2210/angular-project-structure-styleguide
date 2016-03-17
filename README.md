@@ -16,9 +16,6 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 
 ### TODO
 
-- [ ] discuss location of sass files
-- [ ] change this to a component based structure instead similar to the treefort application
-
 ```
 .
 ├── app
@@ -36,7 +33,9 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │   │   ├── functionality-1.directive.js
 │   │   ├── functionality-1.tpl.js
 │   │   ├── bar.filter.js
-│   │   └── model.service.js
+│   │   ├── model.service.js
+│   │   ├── model.spec.js
+│   │   └── home.less
 │   └── about
 │       ├── about.module.js
 │       ├── about.routes.js
@@ -44,7 +43,9 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │       ├── functionalty-2.directive.js
 │       ├── functionality-3.directive.js
 │       ├── localize.filter.js
-│       └──helper.service.js
+│       ├── helper.service.js
+│       └── about.less
+├── app.less
 └── lib
 ```
 
