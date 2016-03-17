@@ -14,8 +14,6 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 
 ## Directory Structure
 
-### TODO
-
 ```
 .
 ├── app
