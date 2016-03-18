@@ -14,6 +14,8 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 
 ## Directory Structure
 
+We use a recurisve component based folder structure. This helps to keep the folders relatively flat and easy to navigate.  If you find yourself seeing 7+ files it may be time to start thinking about splitting out some of the functionality into a new module.  This helps to make modules small and single purpose. 
+
 ```
 .
 ├── app
@@ -43,8 +45,7 @@ The purpose of this style guide is to provide guidance on building Angular pplic
 │       ├── localize.filter.js
 │       ├── helper.service.js
 │       └── about.less
-├── app.less
-└── lib
+└── app.less
 ```
 
 ### Why
@@ -57,17 +58,23 @@ Name directories using `kebab-case` syntax.
 
 #### Why
 
+Because it's easy, it's case insensitive, and we name our files in a similar pattern.
+
 ### Files
 
-Name files using `kebab-case` syntax. Add a file type descriptor at the end of the file name that describes what type of Angular construct it is.
+Name files using a modified `kebab-case` syntax. Add a file type descriptor at the end of the file name that describes what type of Angular construct it is.
 
 ```
 // bad
+functionality-service.js
 
 // good
+functionality.service.js
 ```
 
 #### Why
+
+Using `kebab-case` with `.componenttype.js` makes it easier to use globstar patterns for build tools and test configurations. It also makes it easier to distinguish which file you're searching for.
 
 Because it makes it easier to write patterns for build tools such as gulp.
 
