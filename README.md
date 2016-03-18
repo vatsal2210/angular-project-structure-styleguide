@@ -50,6 +50,8 @@ We use a recurisve component based folder structure. This helps to keep the fold
 
 ### Why
 
+It helps to keep folders more flat. Files are also typically grouped closely to other files that have similar functionality.
+
 ## Naming Conventions
 
 ### Directories 
