@@ -18,35 +18,37 @@ We use a recurisve component based folder structure. This helps to keep the fold
 
 ```
 .
-├── app
-│   ├── app.js
-│   ├── common
-│   │   ├── controllers
-│   │   ├── directives
-│   │   ├── filters
-│   │   └── services
-│   ├── home
-│   │   ├── home.module.js
-│   │   ├── home.routes.js
-│   │   ├── first.controller.js
-│   │   ├── second.controler.js
-│   │   ├── functionality-1.directive.js
-│   │   ├── functionality-1.tpl.js
-│   │   ├── bar.filter.js
-│   │   ├── model.service.js
-│   │   ├── model.spec.js
-│   │   └── home.less
-│   └── about
-│       ├── about.module.js
-│       ├── about.routes.js
-│       ├── third.controller.js
-│       ├── functionalty-2.directive.js
-│       ├── functionality-3.directive.js
-│       ├── localize.filter.js
-│       ├── helper.service.js
-│       └── about.less
-├── index.html
-└── app.less
+└── app
+    ├── app.js
+    ├── index.html
+    ├── less
+    │   └── app.less
+    ├── common
+    │   ├── controllers
+    │   ├── directives
+    │   ├── filters
+    │   └── services
+    ├── home
+    │   ├── home.module.js
+    │   ├── home.routes.js
+    │   ├── first.controller.js
+    │   ├── second.controler.js
+    │   ├── functionality-1.directive.js
+    │   ├── functionality-1.tpl.js
+    │   ├── bar.filter.js
+    │   ├── model.service.js
+    │   ├── model.spec.js
+    │   └── home.less
+    └── about
+        ├── about.module.js
+        ├── about.routes.js
+        ├── third.controller.js
+        ├── functionalty-2.directive.js
+        ├── functionality-3.directive.js
+        ├── localize.filter.js
+        ├── helper.service.js
+        └── about.less
+
 ```
 
 ### Why
