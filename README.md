@@ -45,6 +45,7 @@ We use a recurisve component based folder structure. This helps to keep the fold
 │       ├── localize.filter.js
 │       ├── helper.service.js
 │       └── about.less
+├── index.html
 └── app.less
 ```
 
