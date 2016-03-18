@@ -76,8 +76,6 @@ functionality.service.js
 
 Using `kebab-case` with `.componenttype.js` makes it easier to use globstar patterns for build tools and test configurations. It also makes it easier to distinguish which file you're searching for.
 
-Because it makes it easier to write patterns for build tools such as gulp.
-
 ## References
 
 1. https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
