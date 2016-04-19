@@ -34,7 +34,7 @@ We use a recurisve component based folder structure. This helps to keep the fold
     │   ├── first.controller.js
     │   ├── second.controler.js
     │   ├── functionality-1.directive.js
-    │   ├── functionality-1.tpl.js
+    │   ├── functionality-1.tpl.html
     │   ├── bar.filter.js
     │   ├── model.service.js
     │   ├── model.spec.js
