@@ -81,6 +81,16 @@ functionality.service.js
 
 Using `kebab-case` with `.componenttype.js` makes it easier to use globstar patterns for build tools and test configurations. It also makes it easier to distinguish which file you're searching for.
 
+Declare Modules, Controllers, Directives, Filters, and Factories with the following naming conventions. Notice Services aren't mentioned because we are using Factories instead as per the John Papa style guide.
+
+Element | Naming style | Example | usage
+----|------|----|--------
+Modules | lowerCamelCase  | angularApp |
+Controllers | Functionality + 'Ctrl'  | AdminCtrl |
+Directives | lowerCamelCase  | userInfo |
+Filters | lowerCamelCase | userFilter |
+Factories | lowerCamelCase | dataFactory | others
+
 ## References
 
 1. https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
