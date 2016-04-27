@@ -19,7 +19,7 @@ We use a recurisve component based folder structure. This helps to keep the fold
 ```
 .
 └── app
-    ├── example.app.js
+    ├── wca.example.js
     ├── index.html
     ├── less
     │   └── app.less
