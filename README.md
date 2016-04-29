@@ -32,7 +32,7 @@ We use a recurisve component based folder structure. This helps to keep the fold
     │   ├── home.module.js
     │   ├── home.routes.js
     │   ├── first.controller.js
-    │   ├── second.controler.js
+    │   ├── second.controller.js
     │   ├── functionality-1.directive.js
     │   ├── functionality-1.tpl.html
     │   ├── bar.filter.js
@@ -43,7 +43,7 @@ We use a recurisve component based folder structure. This helps to keep the fold
         ├── about.module.js
         ├── about.routes.js
         ├── third.controller.js
-        ├── functionalty-2.directive.js
+        ├── functionality-2.directive.js
         ├── functionality-3.directive.js
         ├── localize.filter.js
         ├── helper.service.js
