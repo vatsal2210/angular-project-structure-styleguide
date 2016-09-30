@@ -4,7 +4,7 @@
 
 This style guide serves as the defacto standard for structuring your new angularjs frontend application at WCA. The project structure is inspired by another fantastic guide that the rest of our angularjs codebase is based upon: [John Papa - Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md).
 
-The purpose of this style guide is to provide guidance on building Angular pplications by showing the conventions we as a team at WCA use and more importantly why we chose them.
+The purpose of this style guide is to provide guidance on building Angular applications by showing the conventions we as a team at WCA use and more importantly why we chose them.
 
 ## Table of Contents
 
@@ -87,7 +87,7 @@ Declare Modules, Controllers, Directives, Filters, and Factories with the follow
 
 Element | Naming style | Example | usage
 ----|------|----|--------
-Modules | 'wca.' + lowerCamelCase  | angularApp |
+Modules | 'wca.' + lowerCamelCase  | wca.angularApp |
 Controllers | Functionality + 'Controller'  | AdminController|
 Directives | wcaLowerCamelCase  | userInfo |
 Filters | lowerCamelCase | userFilter |
