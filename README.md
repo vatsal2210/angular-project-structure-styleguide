@@ -24,31 +24,30 @@ We use a recurisve component based folder structure. This helps to keep the fold
     ├── less
     │   └── example.less
     ├── common
-    │   ├── controllers
-    │   ├── directives
+    │   ├── components
     │   ├── filters
     │   └── services
-    ├── home
-    │   ├── home.module.js
-    │   ├── home.routes.js
-    │   ├── first.controller.js
-    │   ├── second.controller.js
-    │   ├── functionality-1.directive.js
-    │   ├── functionality-1.tpl.html
-    │   ├── bar.filter.js
-    │   ├── model.service.js
-    │   ├── model.spec.js
-    │   └── home.less
-    └── about
-        ├── about.module.js
-        ├── about.routes.js
-        ├── third.controller.js
-        ├── functionality-2.directive.js
-        ├── functionality-3.directive.js
-        ├── localize.filter.js
-        ├── helper.service.js
-        └── about.less
-
+    └── components
+        ├── home
+        │   ├── home.module.js
+        │   ├── home.routes.js
+        │   ├── first.controller.js
+        │   ├── second.controller.js
+        │   ├── functionality-1.directive.js
+        │   ├── functionality-1.tpl.html
+        │   ├── bar.filter.js
+        │   ├── model.service.js
+        │   ├── model.spec.js
+        │   └── home.less
+        └── about
+            ├── about.module.js
+            ├── about.routes.js
+            ├── third.controller.js
+            ├── functionality-2.directive.js
+            ├── functionality-3.directive.js
+            ├── localize.filter.js
+            ├── helper.service.js
+            └── about.less
 ```
 
 ### Why
