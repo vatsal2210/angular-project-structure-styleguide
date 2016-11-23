@@ -89,7 +89,7 @@ Element | Naming style | Example | usage
 ----|------|----|--------
 Modules | 'wca.' + lowerCamelCase  | wca.angularApp |
 Controllers | Functionality + 'Controller'  | AdminController|
-Directives | wcaLowerCamelCase  | userInfo |
+Components | wcaLowerCamelCase  | wcaFooter |
 Filters | lowerCamelCase | userFilter |
 Factories | lowerCamelCase | dataFactory | others
 
