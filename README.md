@@ -89,7 +89,8 @@ Element | Naming style | Example | usage
 ----|------|----|--------
 Modules | 'wca.' + lowerCamelCase  | wca.angularApp |
 Controllers | Functionality + 'Controller'  | AdminController|
-Components | wcaLowerCamelCase  | wcaFooter |
+Components | wcaLowerCamelCase  | wcaFooter | as elements
+Directives | wcaLowerCamelCase  | wcaListModal | as attributes
 Filters | lowerCamelCase | userFilter |
 Factories | lowerCamelCase | dataFactory | others
 
@@ -97,8 +98,11 @@ Factories | lowerCamelCase | dataFactory | others
 
 Sometimes it's better to pick one way than to do something in a team setting.
 
+See [this post](https://gist.github.com/toddmotto/5b4de6c777d3e446e6410fdadb824522) for more information on the distinction between components and directives in Angular 1.5
+
 ## References
 
 1. https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
 1. https://github.com/gianarb/awesome-angularjs
 1. https://github.com/mgechev/angularjs-style-guide#directory-structure
+1. https://gist.github.com/toddmotto/5b4de6c777d3e446e6410fdadb824522
